@@ -1,0 +1,83 @@
+body{
+    background-image: url("https://e7qp5wiu7fp.exactdn.com/wp-content/uploads/cache/images/remote/e7qp5wiu7fp-exactdn-com/top-10-plats-des-meilleurs-restaurants-tunisie-3498633554.png?strip=all&lossy=1&ssl=1");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    text-align: center;
+    font-size: 300%;
+    color: #520f0f;
+    text-decoration:overline;
+    
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.card{
+   width: 270px;
+   height: 400px;
+   margin: 10px;
+   border-radius: 30px;
+}
+.card-image{
+    background-color: aqua;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.resto1{
+    background-image:url("images resto/mléwi.jpeg");
+}
+.resto2{
+    background-image: url("images resto/couscous-tunisien.webp");
+}
+.resto3{
+    background-image: url("images resto/lablebi.jpeg");
+}
+.resto4{
+    background-image: url("images resto/brik.jpg");
+}
+.resto5{
+    background-image: url("images resto/salade-1.jpg");
+}
+.resto6{
+    background-image: url("images resto/frikassé.jpg");
+}
+.resto7{
+    background-image:url("images resto/tajine-tunisien-au-poulet--127341p191006.jpg") ;
+}
+.resto8{
+    background-image: url("images resto/ma9rouna.jpeg");
+}
+.resto9{
+    background-image: url("images resto/Keftji-231222-1.jpg");
+}
+.card a{
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 30px 20px;
+    border-radius: 15px;
+}
+.ft{
+    text-align: center;
+    color: rgb(238, 231, 231);
+}
+.adresse{
+    text-align:center;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    
+}
